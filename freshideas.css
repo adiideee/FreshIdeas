@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(bg1.png);
+}
+#main{
+    width: 960px;
+    min-height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#header{
+    height: 150px;
+}
+#logo{
+    height: 200px;
+    padding: 20px;
+    width: 300px;
+    float: left;
+}
+#menu{
+    background-color: black;
+    float: left;
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#menu ul li{
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu ul li:hover{
+    background-color: rgb(243, 196, 41);
+}
+#banner{
+    height: 300px;
+    border: 8px solid rgb(199, 193, 193);
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(Assets/banner1.png);
+}
+#text{
+    width:270px;
+    margin:40px;
+    text-align: center;
+    height:150px;
+    padding: 40px;
+}
+#text h1{
+    display: inline;
+    font-size: 28px;
+    font-weight: lighter;
+}
+#span1{
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+#span1 a{
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    height: 50px;
+    width: 960px;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#left{
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 480px;
+}
+#right{
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 480px;
+}
+#r{
+    width: 300px;
+    min-height: 650px;
+    float: left;
+    margin: 20px;
+}
+#l{
+    width: 550px;
+    min-height: 650px;
+    float: left;
+    margin: 20px;
+}
+#r h1{
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+}
+.news a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#newspic{
+    margin: 10px;
+    border: 2px solid rgb(199, 193, 193);
+    padding: 15px;
+    position: relative;
+    right: 10px;
+    width: 250px;
+}
+#l h1{
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+}
+#aboutpic{
+    border:1px solid rgb(199, 193, 193) ;
+    width: 200px;
+    padding: 5px;
+    float: left;
+    margin: 10px;
+}
+#aboutus a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#aboutcont{
+    height:140px;
+}
+.servicepic{
+    border:1px solid rgb(199, 193, 193) ;
+    width: 150px;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+}
+#services a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.servicecont{
+    height: 110px;
+    margin: 10px;
+}
+
