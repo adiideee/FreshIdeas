@@ -1,24 +1,32 @@
 # FreshIdeas
-FreshIdeas is a basic landing page made using HTML and CSS.
 
-<h1>How to Clone this repository?</h1>
+## FreshIdeas is a basic landing page made using HTML and CSS.
 
-<b><u>Step:1</u></b> Above the list of files, click <Code>.<br>
-<img src="https://github.com/adiideee/FreshIdeas/assets/167276849/4f2f84ef-4b56-49f2-b6a5-47e36c5c6bba"/><br>
+## How to Clone this Repository
 
-<b><u>Step:2</u></b> Copy the URL for the repository.
-<ul>
-<li>To clone the repository using HTTPS, under "HTTPS", click copy.</li>
-<li>To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click copy.</li>
-<li>To clone a repository using GitHub CLI, click GitHub CLI, then click copy.</li><br>
-</ul>
-<img src="https://github.com/adiideee/FreshIdeas/assets/167276849/1fbf0e15-9f76-44c6-a313-5f3d1d7e6dee"/><br>
+To clone this repository to your local machine, follow these steps:
 
-<b><u>Step:3</u></b> Open Git Bash.<br>
+1. **Open Terminal or Command Prompt**: Launch your terminal or command prompt application.
 
-<b><u>Step:4</u></b> Change the current working directory to the location where you want the cloned directory.<br>
+2. **Change Directory**: Navigate to the directory where you want to clone the repository. Use the `cd` command followed by the path to the desired directory.
 
-<b><u>Step:5</u></b> Type git clone, and then paste the URL you copied earlier.<br>
+    ```bash
+    cd path/to/desired/directory
+    ```
 
-<b><u>Step:6</u></b> Press Enter to create your local clone..<br>
-  
+3. **Clone the Repository**: Use the `git clone` command followed by the URL of the repository.
+
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
+
+    Replace `your-username` with your GitHub username and `your-repository` with the name of your repository.
+
+4. **Navigate to the Repository**: Move into the newly cloned repository directory.
+
+    ```bash
+    cd your-repository
+    ```
+
+5. **Congratulations!** You have successfully cloned the repository to your local machine.
+
